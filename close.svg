@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+<defs><radialGradient id="halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ff2b40" stop-opacity="0.5"/><stop offset="0.5" stop-color="#d3122b" stop-opacity="0.16"/><stop offset="1" stop-color="#d3122b" stop-opacity="0"/></radialGradient><linearGradient id="plate" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a3340" stop-opacity="1"/><stop offset="0.5" stop-color="#141016" stop-opacity="1"/><stop offset="1" stop-color="#050306" stop-opacity="1"/></linearGradient><linearGradient id="plateHot" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff7480" stop-opacity="1"/><stop offset="0.45" stop-color="#d3122b" stop-opacity="1"/><stop offset="1" stop-color="#6c0613" stop-opacity="1"/></linearGradient><radialGradient id="iris" cx="0.42" cy="0.38" r="0.7"><stop offset="0" stop-color="#ff7480" stop-opacity="1"/><stop offset="0.4" stop-color="#ff2b40" stop-opacity="1"/><stop offset="0.8" stop-color="#d3122b" stop-opacity="1"/><stop offset="1" stop-color="#a00c1f" stop-opacity="1"/></radialGradient><radialGradient id="irisHot" cx="0.42" cy="0.38" r="0.7"><stop offset="0" stop-color="#ffd0d4" stop-opacity="1"/><stop offset="0.35" stop-color="#ff2b40" stop-opacity="1"/><stop offset="1" stop-color="#d3122b" stop-opacity="1"/></radialGradient><radialGradient id="irisDim" cx="0.42" cy="0.38" r="0.7"><stop offset="0" stop-color="#f7f6f3" stop-opacity="1"/><stop offset="1" stop-color="#bfb9b2" stop-opacity="1"/></radialGradient></defs>
+<g id="active-center">
+<rect x="0" y="0" width="22" height="22" fill="#000" opacity="0"/>
+<g transform="translate(11.0,11.0) scale(1.0) translate(-11.0,-11.0)">
+<path d="M2.5,11.0 C7.0,4.6 15.0,4.6 19.5,11.0 C15.0,17.4 7.0,17.4 2.5,11.0 Z" fill="url(#iris)" stroke="#141016" stroke-width="0.9"/>
+<path d="M11.0,6.4 C12.1,9.0 12.1,13.0 11.0,15.6 C9.9,13.0 9.9,9.0 11.0,6.4 Z" fill="#141016"/>
+<ellipse cx="7.8" cy="9.1" rx="1.6" ry="0.8" fill="#ffffff" opacity="0.85" transform="rotate(-18 7.8 9.1)"/>
+</g>
+</g>
+<g id="hover-center">
+<rect x="0" y="0" width="22" height="22" fill="#000" opacity="0"/>
+<circle cx="11.0" cy="11.0" r="11.0" fill="url(#halo)" opacity="1.0"/>
+<g transform="translate(11.0,11.0) scale(1.1) translate(-11.0,-11.0)">
+<path d="M2.5,11.0 C7.0,4.6 15.0,4.6 19.5,11.0 C15.0,17.4 7.0,17.4 2.5,11.0 Z" fill="url(#irisHot)" stroke="#6c0613" stroke-width="0.9"/>
+<path d="M11.0,6.4 C12.1,9.0 12.1,13.0 11.0,15.6 C9.9,13.0 9.9,9.0 11.0,6.4 Z" fill="#141016"/>
+<ellipse cx="7.8" cy="9.1" rx="1.6" ry="0.8" fill="#ffffff" opacity="0.85" transform="rotate(-18 7.8 9.1)"/>
+</g>
+</g>
+<g id="pressed-center">
+<rect x="0" y="0" width="22" height="22" fill="#000" opacity="0"/>
+<circle cx="11.0" cy="11.0" r="11.0" fill="url(#halo)" opacity="0.6"/>
+<g transform="translate(11.0,11.0) scale(0.92) translate(-11.0,-11.0)">
+<path d="M2.5,11.0 C7.0,4.6 15.0,4.6 19.5,11.0 C15.0,17.4 7.0,17.4 2.5,11.0 Z" fill="url(#iris)" stroke="#141016" stroke-width="0.9"/>
+<path d="M11.0,6.4 C12.1,9.0 12.1,13.0 11.0,15.6 C9.9,13.0 9.9,9.0 11.0,6.4 Z" fill="#141016"/>
+</g>
+</g>
+<g id="inactive-center">
+<rect x="0" y="0" width="22" height="22" fill="#000" opacity="0"/>
+<g transform="translate(11.0,11.0) scale(1.0) translate(-11.0,-11.0)">
+<path d="M2.5,11.0 C7.0,4.6 15.0,4.6 19.5,11.0 C15.0,17.4 7.0,17.4 2.5,11.0 Z" fill="url(#irisDim)" stroke="#a39c95" stroke-width="0.9"/>
+<path d="M11.0,6.4 C12.1,9.0 12.1,13.0 11.0,15.6 C9.9,13.0 9.9,9.0 11.0,6.4 Z" fill="#a39c95"/>
+</g>
+</g>
+<g id="hover-inactive-center">
+<rect x="0" y="0" width="22" height="22" fill="#000" opacity="0"/>
+<circle cx="11.0" cy="11.0" r="11.0" fill="url(#halo)" opacity="0.6"/>
+<g transform="translate(11.0,11.0) scale(1.05) translate(-11.0,-11.0)">
+<path d="M2.5,11.0 C7.0,4.6 15.0,4.6 19.5,11.0 C15.0,17.4 7.0,17.4 2.5,11.0 Z" fill="url(#iris)" stroke="#141016" stroke-width="0.9"/>
+<path d="M11.0,6.4 C12.1,9.0 12.1,13.0 11.0,15.6 C9.9,13.0 9.9,9.0 11.0,6.4 Z" fill="#141016"/>
+<ellipse cx="7.8" cy="9.1" rx="1.6" ry="0.8" fill="#ffffff" opacity="0.85" transform="rotate(-18 7.8 9.1)"/>
+</g>
+</g>
+<g id="pressed-inactive-center">
+<rect x="0" y="0" width="22" height="22" fill="#000" opacity="0"/>
+<g transform="translate(11.0,11.0) scale(0.92) translate(-11.0,-11.0)">
+<path d="M2.5,11.0 C7.0,4.6 15.0,4.6 19.5,11.0 C15.0,17.4 7.0,17.4 2.5,11.0 Z" fill="url(#iris)" stroke="#141016" stroke-width="0.9"/>
+<path d="M11.0,6.4 C12.1,9.0 12.1,13.0 11.0,15.6 C9.9,13.0 9.9,9.0 11.0,6.4 Z" fill="#141016"/>
+</g>
+</g>
+<g id="deactivated-center">
+<rect x="0" y="0" width="22" height="22" fill="#000" opacity="0"/>
+<g transform="translate(11.0,11.0) scale(1.0) translate(-11.0,-11.0)">
+<path d="M2.5,11.0 C7.0,4.6 15.0,4.6 19.5,11.0 C15.0,17.4 7.0,17.4 2.5,11.0 Z" fill="url(#irisDim)" stroke="#bfb9b2" stroke-width="0.9"/>
+<path d="M11.0,6.4 C12.1,9.0 12.1,13.0 11.0,15.6 C9.9,13.0 9.9,9.0 11.0,6.4 Z" fill="#bfb9b2"/>
+</g>
+</g>
+<g id="deactivated-inactive-center">
+<rect x="0" y="0" width="22" height="22" fill="#000" opacity="0"/>
+<g transform="translate(11.0,11.0) scale(1.0) translate(-11.0,-11.0)">
+<path d="M2.5,11.0 C7.0,4.6 15.0,4.6 19.5,11.0 C15.0,17.4 7.0,17.4 2.5,11.0 Z" fill="url(#irisDim)" stroke="#bfb9b2" stroke-width="0.9"/>
+<path d="M11.0,6.4 C12.1,9.0 12.1,13.0 11.0,15.6 C9.9,13.0 9.9,9.0 11.0,6.4 Z" fill="#bfb9b2"/>
+</g>
+</g>
+</svg>
